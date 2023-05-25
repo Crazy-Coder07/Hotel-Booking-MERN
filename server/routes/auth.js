@@ -3,9 +3,9 @@ const express=require("express");
 const router=express.Router();
 
 // controllers
-import { showMessage } from "../controllers/auth";
+import {register } from "../controllers/auth";
 
 // /api/:message  here : is for dynamic message on server
-router.get('/:message',showMessage);
+router.post('/register',register);
 
 module.exports=router;
