@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Home = () => {
+const NewHotel= () => {
   return (
     <div className='container-fluid h1 p-5 text-center'>
-      Home Page;
+      Post a New Hotel;
     </div>
   )
 }
 
-export default Home;
+export default NewHotel;
