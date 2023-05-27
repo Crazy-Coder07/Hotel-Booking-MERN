@@ -25,7 +25,7 @@ function App() {
          <Route exact path="/register" component={Register}/>
          <PrivateRoute exact path="/dashboard" component={Dashboard}/>
          <PrivateRoute exact path="/dashboard/seller" component={DashboardSeller}/>
-         <PrivateRoute exact path="/hotel/new" component={NewHotel}/>
+         <PrivateRoute exact path="/hotels/new" component={NewHotel}/>
       </Switch>
     </BrowserRouter>
   );
